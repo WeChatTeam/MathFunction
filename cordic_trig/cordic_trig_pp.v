@@ -13,7 +13,7 @@ module cordic_trig_pp #(
 
     input wire signed [`FIXED_DATA_WIDTH-1 : 0] target_rad,
 
-    input wire data_valid,
+    output wire data_valid,
     output wire signed [`FIXED_DATA_WIDTH-1 : 0] real_sin_rad,
     output wire signed [`FIXED_DATA_WIDTH-1 : 0] real_cos_rad
 );

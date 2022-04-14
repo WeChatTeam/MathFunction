@@ -1,5 +1,5 @@
 `define FIXED_DATA_WIDTH SYM_WIDTH+INT_WIDTH+DEC_WIDTH
-
+(* DONT_TOUCH = "yes" *)
 module cordic_iterate #(
     parameter SYM_WIDTH = 1,
     parameter INT_WIDTH = 1,
