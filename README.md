@@ -22,7 +22,7 @@
 1. **cordic_trig_pp.v**：  
    当`data_ready`拉高时，表示输入数据有效，模块计算完成后会自动拉高`data_valid`同时输出sin和cos。若有多组数据需要计算，可将`data_ready`保持高，直到数据输入数据结束即可。  
 ![image](image/cordic_trig_pp.png)  
-2. **cordic_vect_pp.v**：  
+1. **cordic_vect_pp.v**：  
    当`data_ready`拉高时，表示输入数据有效，模块计算完成后会自动拉高`data_valid`同时输出sqrt。若有多组数据需要计算，可将`data_ready`保持高，直到数据输入数据结束即可。  
 ![image](image/cordic_vect_pp.png)  
 
